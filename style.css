@@ -58,7 +58,7 @@ nav a:hover {
   /* color: #333; */
 }
 
-/* ///////////////////////paragraph home-content\\\\\\\\\\\\\\\\\\\\ */
+/* ///////////////////////Main Section and paragraph home-content\\\\\\\\\\\\\\\\\\\\ */
 
 .home-content {
   background-color:  rgba(82, 68, 107, 0.674);
@@ -103,7 +103,7 @@ nav a:hover {
   color: #fff;
 }
 
-/*//////////////// popUp section\\\\\\\\\\\\\\\ */
+/*/////////// popUp section///////////// */
 
 .modal {
   display: none;
@@ -152,7 +152,8 @@ nav a:hover {
   transition: background-color 0.9s;
 }
 
-/* ////////home button\\\\\\\\\\\ */
+/* ///////////home button////////////*/
+
 .ps-button {
   /* border: solid 1px red; */
   margin: 20px 35px;
@@ -180,7 +181,7 @@ nav a:hover {
   transition: background-color 1s;
 }
 
-    /* ////////footer sectiron\\\\\\ */
+    /* //////////////////footer sectiron\\\\\\\\\\\\\\\\\\\\\\\*/
 
     .media-icons {
   margin-top: 50px;
@@ -209,7 +210,7 @@ nav a:hover {
     text-align: center;
 }
 
-
+/* /////////////////////////////Media query section\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 @media screen and (max-width: 768px) {
   .nav-links{
