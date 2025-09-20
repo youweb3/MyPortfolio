@@ -1,108 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yousef Shaikhan - Portfolio</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-</head>
-
-<body>
-  <header>
-    <div class="logo"><span class="highlight">youweb3 </span>Portfolio</div>
-    <nav class="navbar">
-      <ul class="nav-links">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./poroject.html">Poroject</a></li>
-        <li><a href="./service.html">Service</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- ////////////////////////////main///////////////////////////////////////////// -->
-  <main>
-    <section class="hero">
-      <!-- hero-content -->
-      <div class="hero-content">
-        <h2 class="home-title">Work With Yousef</h2>
-        <div class="info">
-          <h2>Designs by Yousef</h2>
-          <p>
-            Yousef’s portfolio reflects his passion for creating designs that are both innovative and impactful.
-            His work combines creativity and functionality, resulting in unique and elegant solutions that stand
-            out.<br />
-            "I’m a creative designer dedicated to turning ideas into reality, blending beauty and usability to make
-            meaningful designs."
-            <br /><br />
-            <i>"This describe the soul of anything Made by</i> Yousef."
-          </p>
+  <body>
+    <header>
+      <div class="logo">
+        <a class="highlight" href="https://github.com/youweb3" target="_blank"
+          >youweb3</a
+        >Portfolio
+      </div>
+      <nav class="navbar">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./project.html">Project</a></li>
+          <li><a href="./service.html">Service</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <button class="read-more-btn">Read More</button>
+      </nav>
+    </header>
 
-        <!-- ///Home button\\\\ -->
-        <div class="ps-button">
-          <a href="portfolio.html" class="po-se-button">Portfilio</a>
-          <button class="po-se-button" onclick="location.href='service.html'">Service</button>
+    <!-- ////////////////////////////main///////////////////////////////////////////// -->
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Hi, I'm Yousef - Software Developer</h1>
+          <h2 class="home-title">Work With Yousef</h2>
+          <div class="info">
+            <h2>Designs by Yousef</h2>
+            <p>
+              Yousef’s portfolio reflects his passion for creating designs that
+              are both innovative and impactful. His work combines creativity
+              and functionality, resulting in unique and elegant solutions that
+              stand out.<br />
+              "I’m a creative designer dedicated to turning ideas into reality,
+              blending beauty and usability to make meaningful designs."
+              <br /><br />
+              <i>"This describe the soul of anything Made by</i> Yousef."
+            </p>
+          </div>
+
+          <button class="read-more-btn" type="button">Read More</button>
+          <div class="ps-button">
+            <a href="project.html" class="po-se-button">Portfolio</a>
+            <button
+              class="po-se-button"
+              type="button"
+              onclick="location.href='service.html'"
+            >
+              Service
+            </button>
+          </div>
         </div>
+
+        <div class="hero-image">
+          <img src="./images/kami.jpg" alt="Yousef Shaikhan" />
+        </div>
+      </section>
+
+      <!-- ////////////////////////////modal///////////////////////////////////////////// -->
+      <section>
+        <div class="modal" id="read">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Profile</h2>
+            <p class="p-read-more">
+              I’m a Software Developer with a background in Mechanical
+              Engineering. experience in front-end development using HTML, CSS,
+              JavaScript, React, and Git for version control.<br />
+              I have over Four years of experience in roles that required
+              problem-solving, communication, and project management. My work in
+              mechanical design helped me develop strong attention to detail and
+              creative thinking, I have successfully increased lead generation
+              by 20%.<br />
+              Additionally, as a Bank Administrator I improved my organizational
+              and data management skills, helping me handle complex projects,
+              and boosting user engagement by 30%.<br />
+              I’m passionate about using Agile methodologies in web development
+              and keeping up with new technologies. I’m eager to learn and
+              create effective solutions. I am highly motivated and enjoy
+              working in teams where I can contribute to innovative software
+              projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+          <div class="project-card">
+            <img src="./images/project1.png" alt="Project 1" />
+            <h3>React Portfolio</h3>
+            <a href="project.html" class="btn">View</a>
+          </div>
+          <div class="project-card">
+            <img src="./images/project2.png" alt="Project 2" />
+            <h3>Python Data App</h3>
+            <a href="project.html" class="btn">View</a>
+          </div>
+          <div class="project-card">
+            <img src="./images/project3.png" alt="Project 3" />
+            <h3>Database Design</h3>
+            <a href="project.html" class="btn">View</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ////////////////////////////////footer//////////////////////////////////// -->
+
+    <footer>
+      <div class="media-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/youweb3" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
       </div>
 
-      <!-- //////popUp section\\\\\\\ -->
-
-      <div class="modal" id="read">
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <h2>Porofile</h2>
-          <p class="p-read-more">I’m a Software Developer with a background in Mechanical
-            Engineering. experience in front-end development using HTML,
-            CSS, JavaScript, React, and Git for version control.<br />
-            I have over Four years of experience in roles that required problem-solving,
-            communication, and project management. My work in mechanical design helped
-            me develop strong attention to detail and
-            creative thinking, I have successfully
-            increased lead generation by 20%.<br/>
-            Additionally, as a Bank Administrator I improved my organizational and data
-            management skills, helping me handle complex projects,
-            and boosting user engagement by 30%.<br/>
-            I’m passionate about using Agile methodologies in web development and
-            keeping up with new technologies. I’m eager to
-            learn and create effective solutions. I am highly
-            motivated and enjoy working in teams where I can contribute
-            to innovative software projects.</p>
-        </div>
+      <div class="contact-info">
+        <p>
+          Email:
+          <a href="mailto:yousef.shaikhan@gmail.com"
+            >yousef.shaikhan@gmail.com</a
+          >
+        </p>
       </div>
-      <div>
-        <img class="hero-image" src="./images/kami.jpg" alt="myself">
+
+      <div class="copy-right">
+        <p>&copy; 2024 Yousef Shaikhan. All rights reserved</p>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <!-- ////////////////////////////////footer//////////////////////////////////// -->
-
-  <footer>
-    <div class="media-icons">
-      <a href="#"><i class="fa-brands fa-facebook"></i></a>
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://github.com/youweb3" target="_blank"><i class="fa-brands fa-github"></i></a>
-      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-      <a href=""><i class="fa-brands fa-instagram"></i></a>
-    </div>
-
-    <div class="copy-right">
-      <p>&copy; 2024 Yousef Shaikhan. All rights reserved</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
